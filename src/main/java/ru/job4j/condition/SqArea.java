@@ -8,7 +8,7 @@ public class SqArea {
         System.out.println(" p = 6, k = 2, s = 2, real = " + result2);
     }
 
-    private static double square(double p, double k) {
+    public static double square(double p, double k) {
         double h = p / (2 * (k + 1));
         double l = h * k;
         return l * h;
